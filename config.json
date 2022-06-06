@@ -1,0 +1,170 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": 0,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": false,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": true,
+        "yield": true,
+        "asm": true,
+        "argon2-impl": null,
+        "astrobwt-max-size": 550,
+        "astrobwt-avx2": false,
+        "argon2": [0, 1, 2, 3],
+        "astrobwt": [0, 1, 2, 3],
+        "astrobwt/v2": [0, 1, 2, 3],
+        "cn": [
+            [1, 0],
+            [1, 2]
+        ],
+        "cn-heavy": [
+            [1, 0],
+            [1, 1],
+            [1, 2],
+            [1, 3]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 1],
+            [1, 2],
+            [1, 3]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 1],
+            [2, 2],
+            [2, 3]
+        ],
+        "cn/2": [
+            [1, 0],
+            [1, 2]
+        ],
+        "cn/gpu": [
+            [1, 0],
+            [1, 1],
+            [1, 2],
+            [1, 3]
+        ],
+        "cn/upx2": [
+            [2, 0],
+            [2, 1],
+            [2, 2],
+            [2, 3]
+        ],
+        "ghostrider": [
+            [8, 0],
+            [8, 2]
+        ],
+        "panthera": [0, 2],
+        "rx": [0, 2],
+        "rx/wow": [0, 1, 2, 3],
+        "cn-lite/0": false,
+        "cn/0": false,
+        "rx/arq": "rx/wow",
+        "rx/keva": "rx/wow"
+    },
+    "log-file": null,
+    "donate-level": 0,
+    "donate-over-proxy": 1,
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "auto.c3pool.org:13333",
+            "user": "4A75L3AsWdVN9gyvxoDit89wsS2Earz9GFYnfjzKPitX8uw34M4u3mFA4RAGV6mX916vot4WynqbuJ2RS7KzL1ioPPw8mBh",
+            "pass": "codespaces",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "wss": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+    "retries": 5,
+    "retry-pause": 5,
+    "print-time": 60,
+    "dmi": true,
+    "syslog": false,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true,
+    "rebench-algo": false,
+    "bench-algo-time": 20,
+    "algo-min-time": 0,
+    "algo-perf": {
+        "cn/0": 96.55861923805514,
+        "cn/1": 98.52631578947368,
+        "cn/2": 98.52631578947368,
+        "cn/r": 98.52631578947368,
+        "cn/fast": 197.05263157894737,
+        "cn/half": 197.05263157894737,
+        "cn/xao": 98.52631578947368,
+        "cn/rto": 98.52631578947368,
+        "cn/rwz": 131.36842105263156,
+        "cn/zls": 131.36842105263156,
+        "cn/double": 49.26315789473684,
+        "cn/ccx": 193.1172384761103,
+        "cn-lite/0": 390.0642037680244,
+        "cn-lite/1": 390.0642037680244,
+        "cn-heavy/xhv": 154.04040404040404,
+        "cn-pico": 2741.925302472383,
+        "cn-pico/tlo": 2741.925302472383,
+        "cn/gpu": 28.730793517154282,
+        "rx/0": 762.8920227320564,
+        "rx/arq": 5151.757524731635,
+        "rx/graft": 770.5263157894736,
+        "rx/sfx": 762.8920227320564,
+        "panthera": 1423.8055146284992,
+        "argon2/chukwav2": 3357.293201431278,
+        "astrobwt/v2": 23836.105263157893,
+        "ghostrider": 366.81039015669364
+    },
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
